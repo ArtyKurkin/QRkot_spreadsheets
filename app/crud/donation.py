@@ -7,7 +7,7 @@ from app.models.user import User
 
 
 class CRUDDonation(CRUDBase):
-
+    """ Donations """
     async def get_by_user(
             self,
             session: AsyncSession,
