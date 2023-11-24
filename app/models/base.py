@@ -6,6 +6,7 @@ from app.core.db import Base
 
 
 class AbstractBase(Base):
+    """ Abstract base model. """
     __abstract__ = True
 
     full_amount = Column(Integer, nullable=False)
